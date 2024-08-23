@@ -1,0 +1,659 @@
+p {
+    margin: 0;
+}
+
+/*-------scroll bar button---------*/
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #f54748;
+    color: white;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: none;
+}
+
+/*------ANIMATION--------*/
+.animate__animated.animate__fadeInDown{
+    animation-duration: 2s;
+}
+.animate__fadeInUp.animate__animated {
+    animation-duration: 2s;
+}
+.animate__animated.animate__jackInTheBox{
+    animation-duration: 3s;
+}
+.animate__animated.animate__zoomIn{
+    animation-duration: 5s;
+}
+
+
+
+/*------MAIN BUTTON------*/
+.main-btn {
+    padding: 14px 31px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #f54748;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main-btn:hover {
+    color: #fff;
+    background: #f48924;
+}
+
+/* Button */
+.btn.btn-outline-success.on {
+    border-radius: 0px 30px 30px 0px;
+    background: red;
+}
+
+.btn.btn-outline-success.on i {
+    color: white;
+}
+
+header {
+
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+
+header.sticky h3 {
+    color: black;
+}
+
+header.sticky nav li a {
+    color: black;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.navbar-brand h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.navbar-brand h3 span {
+    font-weight: 100;
+}
+
+.nav li a {
+    color: white;
+}
+
+.nav-link.active {
+    color: red;
+}
+
+.dropdown-menu li a {
+    color: black;
+}
+
+.form-control.search {
+    background-color: #ffffff14;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.form-control.search::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.sticky .form-control.search::placeholder {
+    color: black;
+}
+
+.sticky .form-control.search {
+    border-color: black;
+}
+
+
+/* Slider */
+
+.slider-block1 {
+    background-image: url(../img/b1.jpg);
+}
+
+.slider-block2 {
+    background-image: url(../img/b2.jpg);
+}
+
+.slider-block3 {
+    background-image: url(../img/b3.jpg);
+}
+
+.slider-ovrlay {
+    background-color: rgba(0, 0, 0, 0.567);
+}
+
+.slider-info {
+    padding: 245px 25px;
+}
+
+.slider-info h1 {
+    font-size: 65px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+.slider-info h1 span {
+    font-size: 65px;
+    font-weight: 100;
+}
+
+.btn.btn1 {
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: rgba(255, 255, 255, 0.12);
+    display: inline-block;
+    padding: 6px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+
+
+/*----SERVIICES----*/
+.service-box {
+    padding: 90px 0px 80px 0px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.heading h3 {
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img-fluid {
+    border-radius: 5px;
+}
+
+.heading h3 span {
+    font-size: 44px;
+    font-weight: 100;
+}
+
+.box {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(245 71 72 / 80%);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.box:hover .overlay {
+    transform: scale(1);
+}
+
+.box:hover .service-icon {
+    display: none;
+}
+
+
+.service-info {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%, -25%);
+}
+
+.service-info h4 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+.service-icon {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #bc1731;
+    border-radius: 3px 3px 3px 5px;
+    padding: 7px 8px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+}
+
+.service-icon i {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-btn {
+    text-align: center;
+    margin: 0 auto;
+    /* Centering the div horizontally */
+    width: fit-content;
+    /* Ensures the width of the div is just enough to fit its content */
+}
+
+
+/*-------CLIENT-SECTION------*/
+.client {
+    padding: 90px 0px 80px 0px;
+    background-color: #73838f24;
+}
+
+.client-box {
+    background-color: white;
+    padding: 40px 30px;
+}
+
+.client-icon {
+    color: #f54748;
+    font-size: 30px;
+}
+
+.mid {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: block;
+    color: var(--heading-color);
+}
+
+.mid:hover {
+    color: #f54748;
+}
+
+.par {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--font-color);
+    letter-spacing: .2px;
+    margin: 20px 0px 25px 0px;
+}
+
+a.read {
+    font-size: 17px;
+    padding: 0;
+    border-bottom: 2px solid red;
+    color: var(--heading-color);
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    border-radius: 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+/*-----EXPERIENCE------*/
+
+.experience {
+    padding: 60px 0px 90px;
+}
+
+.had h3 {
+    font-size: 44px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.had h3 span {
+    font-size: 44px;
+    font-weight: 100;
+}
+
+.exp-2 {
+    background-image: url(../img/about.jpg);
+    height: 375px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.video-play-icon {
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: red;
+    border: none;
+    text-align: center;
+}
+
+/*------APPOINTMENT-SECTION-------*/
+.appointment {
+    background-image: url(../img/bg1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.appointment .slider-ovrlay {
+    padding: 90px 0px;
+}
+
+.app-info.heading h3 {
+    color: white;
+}
+
+.bat {
+    color: white;
+}
+
+/*------GRID------*/
+
+.instruct {
+    padding: 48px 95px;
+}
+
+.work-img {
+    background-image: url(../img/bg2.jpg);
+    height: 451px;
+}
+
+.work-info {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-info p {
+    text-align: center;
+}
+
+.work-info h3 {
+    text-align: center;
+}
+
+.work-img1 {
+    background-image: url(https://wp.w3layouts.com/dressup/wp-content/themes/Dress-Up/assets/images/bg4.jpg);
+    height: 400px;
+}
+
+.work-img2 {
+    background-image: url(https://wp.w3layouts.com/dressup/wp-content/themes/Dress-Up/assets/images/bg3.jpg);
+    height: 400px;
+}
+
+/*------CLIENT-POSTS------*/
+.post {
+    padding: 90px;
+}
+
+.post .heading {
+    margin-bottom: 80px;
+}
+
+.card-body h6 a {
+    font-size: 15px;
+    color: #363636;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.card-body h6 i {
+    color: red;
+}
+
+.post-img {
+    position: relative;
+}
+
+.card:hover .overlay {
+    transform: scale(1);
+
+}
+
+.card:hover img {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.post-img {
+    overflow: hidden;
+}
+
+.lo {
+    line-height: 40px;
+    color: white;
+    border-radius: 100%;
+    font-size: 30px;
+    padding: 0px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/*-------FOOTER-------*/
+.footer {
+    background-image: url(../img/footer-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foot-overlay {
+    background-color: rgba(0, 0, 0, 0.653);
+    padding: 90px 0px 0px;
+}
+
+.sec-1 {
+    color: white;
+}
+
+.sec-1 a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+
+.sec-1 a span {
+    font-weight: 100;
+}
+
+.social {
+    list-style: none;
+    padding: 10px;
+}
+
+.foot-social ul li a i {
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+
+.foot-title h3 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.foot-contact {
+    list-style: none;
+    color: white;
+}
+
+.foot-contact li a {
+    font-size: 16px;
+    color: white;
+    opacity: .9;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.foot-contact li {
+    margin-bottom: 10px;
+}
+
+.week ul {
+    list-style: none;
+    color: white;
+}
+
+.week ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    opacity: .9;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.below-section {
+    border: 1px solid white
+}
+
+
+
+
+
+/*-----RESPONSIVE--------*/
+
+@media(max-width:991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .navbar-toggler {
+        background-color: #bc1731;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider-info h1,
+    .slider-info h1 span {
+        font-size: 50px;
+    }
+
+    .box {
+        margin-bottom: 25px;
+    }
+
+    .exp-2 {
+        margin-top: 75px;
+    }
+
+    .app-2 {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .post-img {
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider-info h1,
+    .slider-info h1 span {
+        font-size: 45px;
+    }
+
+    .navbar-toggler {
+        background-color: #bc1731;
+    }
+
+    .service-box {
+        padding: 48px 0px;
+    }
+
+    .client {
+        padding: 48px 0px;
+    }
+    .client-box
+    {
+        padding: 20px 4px;
+    }
+    .instruct {
+        padding: 48px 40px;
+    }
+
+    .experience {
+        padding: 48px 0px;
+    }
+    .post{
+        padding: 48px 0px;
+    }
+    .heading h3{
+        font-size: 38px;
+        line-height: 48px;
+    } 
+}
